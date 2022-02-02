@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section{
+    width: auto;
+    height: 800px;
+
+}
+h1{
+    color: white;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    font-size: larger;
+    background-color: #9FC5F9;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style-type: none;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+
+}
+.current{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    border-bottom: 2px solid black;
+     
+}
+.days{
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    width: auto;
+    height: 400px;
+ 
+
+}
+.days h3{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+span{
+    margin-left: 50px;
+
+}
+
+.red{
+    color: red;
+    font-weight: 700;
+}
+
+.blue{
+    color: blue;
+    font-weight: 700;
+}
+
+.forecast img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+
+}
+
+.cookie-display{
+   display: flex;
+   justify-content: space-between;
+
+   border: 2px solid black;
+}
+.message{
+    display: flex;
+    margin: 10px;
+}
+
+.stop{
+    margin: 10px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #9FC5F9;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px black;
+}
